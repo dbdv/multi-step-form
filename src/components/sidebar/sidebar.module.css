@@ -1,0 +1,14 @@
+.sidebar-wrapper {
+  background-image: url("/bg-sidebar-desktop.svg");
+  width: 350px;
+  height: 700px;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 3rem;
+}
+
+.sidebar-wrapper .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}

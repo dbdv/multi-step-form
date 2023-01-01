@@ -1,0 +1,34 @@
+.step-ind-wrapper {
+  width: 100%;
+  display: flex;
+  line-height: 1rem;
+  gap: 1rem;
+}
+
+.step-ind-wrapper .step-number {
+  padding: 0.6rem 0.8rem;
+  border-radius: 50px;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+.step-ind-wrapper .step-ind {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--primary-Pastel-blue);
+}
+
+.step-ind-wrapper .step-ind strong {
+  font-size: 1rem;
+  color: white;
+}
+
+.active-step {
+  background: var(--primary-Light-blue);
+  color: var(--primary-Marine-blue);
+  border: none;
+}
